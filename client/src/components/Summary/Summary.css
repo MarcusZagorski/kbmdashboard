@@ -1,0 +1,38 @@
+[class*="summary__container__"] {
+  display: flex;
+  align-items: center;
+  grid-row: 1 / 2;
+  box-shadow: 0px 4px 12px #00000014;
+  background: white;
+  border-radius: 28px;
+  padding: 20px 12px;
+  gap: 1.2rem;
+}
+
+[class*="summary__container__"] svg {
+  width: 3.2rem;
+  height: 3.2rem;
+  background: var(--kbm-color);
+  color: var(--secondary-text-color);
+  border-radius: 100%;
+}
+
+.summary__icon {
+  padding: 0.8rem;
+}
+
+.summary__container__1 {
+  grid-column: 3 / 5;
+}
+
+.summary__container__2 {
+  grid-column: 5 / 7;
+}
+
+.summary__container__3 {
+  grid-column: 7 / 9;
+}
+
+.summary__container__4 {
+  grid-column: 11 / 9;
+}
