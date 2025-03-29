@@ -1,0 +1,9 @@
+.homepage__layout {
+  height: 96%;
+  width: 98%;
+  background: teal;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 24px;
+}
