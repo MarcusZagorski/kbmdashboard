@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import pg from "pg";
 import cors from "cors";
+import quotes from "./quotes.js";
 
 dotenv.config();
 
@@ -17,6 +18,11 @@ const pool = new Pool({
 app.get("/", async (req, res) => {
   const result = await pool.query("SELECT * FROM expenses;");
   res.json(result.rows);
+});
+
+app.get("/quotes", (req, res) => {
+  const randomQuote = Math.floor(Math.random() * quotes.length);
+  res.json(quotes[randomQuote]);
 });
 
 app.listen(PORT, () => {
