@@ -3,7 +3,7 @@ import "./Quote.css";
 const Quote = () => {
   return (
     <div className="quote__container">
-      <p>Quote Of The Day</p>
+      <h2>Quote Of The Day</h2>
     </div>
   );
 };
