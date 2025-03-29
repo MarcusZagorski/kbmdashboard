@@ -11,5 +11,13 @@ body {
   box-sizing: border-box;
   font-family: var(--font), sans-serif;
   color: var(--primary-text-color);
+  height: 100vh;
   background: #f9f9f9;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
