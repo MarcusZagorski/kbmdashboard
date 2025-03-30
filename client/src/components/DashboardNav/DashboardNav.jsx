@@ -16,8 +16,10 @@ const DashboardNav = () => {
             </Link>
           </li>
           <li>
-            <Icon icon="arcticons:expense-register" className="nav__icon" />
-            Expenses
+            <Link to="/expenses">
+              <Icon icon="arcticons:expense-register" className="nav__icon" />
+              Expenses
+            </Link>
           </li>
           <li>
             <Icon icon="arcticons:budgetwatch" className="nav__icon" />
