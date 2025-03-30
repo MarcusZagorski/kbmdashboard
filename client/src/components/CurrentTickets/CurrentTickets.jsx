@@ -3,7 +3,7 @@ import "./CurrentTickets.css";
 const CurrentTickets = () => {
   return (
     <div className="currenttickets__container">
-      <p>Current Tickets</p>
+      <h2>Current Tickets</h2>
     </div>
   );
 };
