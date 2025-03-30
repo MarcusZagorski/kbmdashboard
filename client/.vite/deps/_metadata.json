@@ -7,30 +7,35 @@
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
+      "fileHash": "0536b076",
       "fileHash": "ffc135fb",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
+      "fileHash": "53f1a14b",
       "fileHash": "44663f4d",
       "needsInterop": true
     },
     "react-router-dom": {
       "src": "../../node_modules/react-router-dom/dist/index.mjs",
       "file": "react-router-dom.js",
+      "fileHash": "8af57835",
       "fileHash": "55f159dc",
       "needsInterop": false
     },
     "@iconify/react": {
       "src": "../../node_modules/@iconify/react/dist/iconify.js",
       "file": "@iconify_react.js",
+      "fileHash": "f80fcb24",
       "fileHash": "50361185",
       "needsInterop": false
     },
     "@iconify/react/dist/iconify.js": {
       "src": "../../node_modules/@iconify/react/dist/iconify.js",
       "file": "@iconify_react_dist_iconify__js.js",
+      "fileHash": "7416d8a3",
       "fileHash": "f2d4980a",
       "needsInterop": false
     }

@@ -1,0 +1,30 @@
+.addexpense__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  border-radius: 28px;
+  grid-column: 3 / -1;
+  grid-row: 11 / 7;
+  box-shadow: 0px 4px 12px #00000014;
+  padding: 0.8rem 0 0 1.4rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 0.8rem;
+}
+
+.submit__expense {
+  grid-column: 1 / 2;
+  grid-row: 6;
+  width: fit-content;
+  padding: 0.8rem 1.2rem;
+  border-radius: 2rem;
+  background: #2b8a44;
+  border: none;
+  cursor: pointer;
+  color: #e9ecef;
+}
