@@ -3,7 +3,7 @@ import "./DailySchedule.css";
 const DailySchedule = () => {
   return (
     <div className="dailyschedule__container">
-      <p>Daily Schedule</p>
+      <h2>Daily Schedule</h2>
     </div>
   );
 };
