@@ -7,7 +7,7 @@ import quotes from "./quotes.js";
 dotenv.config();
 
 const app = express();
-app.use(express.json());
+app.use(express.json(), cors({ origin: "http://localhost:5173" }));
 const PORT = process.env.PORT;
 const { Pool } = pg;
 
